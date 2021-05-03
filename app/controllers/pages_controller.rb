@@ -8,4 +8,8 @@ class PagesController < ApplicationController
     render :team
   end
 
+  def history
+    render :history
+  end
+
 end
